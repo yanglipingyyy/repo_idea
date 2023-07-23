@@ -31,7 +31,7 @@ public class courseaaaController {
             List<CourseSection> sectionList =
                     contentContentService.findSectionAndLessonByCourseId(courseId);
             //封装数据并返回
-            ResponseResult result = new ResponseResult(true,200,"响12应成功1112",sectionList);
+            ResponseResult result = new ResponseResult(true,200,"响12应成功11125",sectionList);
             return result;
         } catch (Exception e) {
             e.printStackTrace();
