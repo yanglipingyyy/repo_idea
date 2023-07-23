@@ -30,8 +30,10 @@ public class courseaaaController {
             //调用service
             List<CourseSection> sectionList =
                     contentContentService.findSectionAndLessonByCourseId(courseId);
+            List<CourseSection> sectionList1 =
+                    contentContentService.findSectionAndLessonByCourseId(courseId);
             //封装数据并返回
-            ResponseResult result = new ResponseResult(true,200,"响12应成功",sectionList);
+            ResponseResult result = new ResponseResult(true,200,"响12应成功",sectionList1);
             return result;
         } catch (Exception e) {
             e.printStackTrace();
