@@ -33,6 +33,7 @@ public class courseaaaController {
             List<CourseSection> sectionList1 =
                     contentContentService.findSectionAndLessonByCourseId(courseId);
             //封装数据并返回
+            ResponseResult result = new ResponseResult(true,200,"响12应成功1112",sectionList);
             ResponseResult result = new ResponseResult(true,200,"响12应成功",sectionList);
             ResponseResult result = new ResponseResult(true,200,"响应成功11",sectionList);
             ResponseResult result = new ResponseResult(true,200,"响12应成功",sectionList1);
